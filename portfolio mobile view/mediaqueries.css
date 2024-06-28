@@ -1,0 +1,185 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .about-containers {
+      flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+    }
+    #Internships,
+    .internship-details-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container1 {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+    .about-containers {
+      margin-top: 0;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 40vh;
+      font-size: 12px;
+    }
+    .menu-links {
+      background-color: rgb(212, 166, 227);
+    }
+    .hamburger-icon {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 20px;
+      width: 26px;
+      cursor: pointer;
+  
+  }
+
+    #profile {
+      height: 88vh;
+      margin-bottom: 0;
+    }
+    #about {
+      height: 120vh;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .internship-sub-title {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section__pic-container1 {
+      width: 175px;
+      height: 175px;
+      margin-top: -6vh;
+    }
+    .picture {
+      height: 175px;
+      width: 175px;
+    }
+
+    .btn-container {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+     }
+  
+
+    .section__text_p1 {
+      font-size: 18px; 
+      margin-top: -2vh;
+    }
+    .section__text_p2 {
+      font-size: 20px 
+    }
+    .about-containers {
+      margin-top: 18vh;
+    }
+    .title1 {
+      font-size: 30px;
+    }
+    .title {
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .text-container {
+      width: 800px;
+      font-size: 10px;
+      margin-bottom: -100vh;
+      margin-left: -265px;
+      margin-top: -50vh;
+      margin-right: -80px;
+      text-align: justify;
+    }
+  .summary {
+    color: rgb( 72, 2, 95  );
+    padding: 0.5rem;
+  }
+   
+   
+   .about-pic {
+    height: 175px;
+    width: 175px;
+    margin-top: 15px;
+    justify-content: center;
+   }
+  
+ .sub, .skill, .tick {
+    text-align: left;
+    margin-left: -60px;
+    gap: 5rem;
+  }
+  .sub {
+    justify-content: space-around;
+    font-size: 10px;
+  }
+  
+  
+  article .icon {
+   margin-left: -4px;
+  }
+   .internship-details-container {
+    font-size: 12px;
+   margin-top: -90px;
+  
+   }
+    .project-img {
+    margin-left: -35px;
+    }
+  }
